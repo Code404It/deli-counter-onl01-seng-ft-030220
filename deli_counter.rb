@@ -7,9 +7,8 @@ ne(deli=katz_deli)
       set sen string
       each iteration
       add to sen (hint: +=)
-end each
-puts sen
-      end
+
+    end
       puts sen
     end
 
