@@ -4,7 +4,11 @@ ne(deli=katz_deli)
     else
       nu = []
      deli.each_with_index { |x,i| nu << "#{i+1}. #{x}"}
-      
+      set sen string
+      each iteration
+      add to sen (hint: +=)
+end each
+puts sen
       end
       puts sen
     end
