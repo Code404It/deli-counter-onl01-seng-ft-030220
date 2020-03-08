@@ -4,4 +4,3 @@ def take_a_number(katz_deli, names)
   end
     puts "The line is: #{katz_deli.join(" ")}"
   end
-end
