@@ -23,5 +23,6 @@ def now_serving(name)
    puts "Currently servie #{name.first}."
     name.shift
 end
+end
 
     
