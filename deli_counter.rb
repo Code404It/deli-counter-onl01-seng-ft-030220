@@ -8,7 +8,7 @@ def (deli=katz_deli)
     end
 def take_a_number(array, name)
  number=array,length+1|
-    array.each "Welcome, #{n}. You are number #{i + 1} in line."
+    array.each{|name| "Welcome, #{name}. You are number #{number} in line."
   end
 end
 
