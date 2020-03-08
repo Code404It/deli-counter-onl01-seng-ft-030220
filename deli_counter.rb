@@ -1,4 +1,4 @@
-ne(deli=katz_deli)
+def (deli=katz_deli)
     if deli.size < 1
       puts "The line is currently empty."
     else
@@ -29,4 +29,5 @@ def now_serving(deli)
   else
   spot = deli.shift
   puts "Currently serving #{spot}."
+end
 end
