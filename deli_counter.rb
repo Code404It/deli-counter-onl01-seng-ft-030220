@@ -20,7 +20,7 @@ def now_serving(name)
     puts "There is nobody waiting to be served!"
   end
   else 
-    puts "Currently servie #{name}"
+    puts "Currently servie #{name.first}"
     name.shift
 end
 
