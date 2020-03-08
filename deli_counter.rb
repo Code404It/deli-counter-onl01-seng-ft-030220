@@ -6,7 +6,7 @@ def line(array)
     array.each.with_index(1) do |name,index|
       current_line<<"#{index}.#{name}"
     end
-    return current_line
+    puts current_line
 end
 end
 
