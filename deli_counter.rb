@@ -7,7 +7,7 @@ def line(array)
       current_line<< "#{index}. #{name}"
     end
     puts current_line
-  end
+end
 end
 
 def take_a_number(katz_deli, name)
