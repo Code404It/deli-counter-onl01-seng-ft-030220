@@ -4,10 +4,7 @@ ne(deli=katz_deli)
     else
       nu = []
      deli.each_with_index { |x,i| nu << "#{i+1}. #{x}"}
-      sen = "The line is currently: "
-      nu.each do |x|
-        sen + " #{x}"
-        binding.pry
+      
       end
       puts sen
     end
