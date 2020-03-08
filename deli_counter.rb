@@ -2,7 +2,7 @@ def (deli=katz_deli)
     if deli.size < 1
       puts "The line is currently empty."
     else
-     current_line=("The line is currently:")
+     current_line = "The line is currently:"
       array.each_with_index
     end
     end
