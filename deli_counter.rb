@@ -10,7 +10,6 @@ def take_a_number(array, name)
  number=array,length+1|
     array.each{|name| "Welcome, #{name}. You are number #{number} in line."
   end
-end
 
 def now_serving(deli)
   if deli.size <= 0
