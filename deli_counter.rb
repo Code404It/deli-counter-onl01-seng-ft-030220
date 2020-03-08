@@ -6,13 +6,8 @@ def (deli=katz_deli)
       array.each_with_index
     end
     end
-      puts sen
+      
     end
-
-end
-
-line
-
 def take_a_number(katz_deli, name)
   katz_deli << name
   katz_deli.each_with_index do |n, i|
