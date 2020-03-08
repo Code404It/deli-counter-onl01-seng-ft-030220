@@ -22,5 +22,5 @@ def now_serving(name)
   else 
     name.shift
 end
-end
+
     
