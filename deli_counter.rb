@@ -3,7 +3,7 @@ def (deli=katz_deli)
       puts "The line is currently empty."
     else
      current_line=("The line is currently:")
-      nu.each do |x|
+      array.each_with_index
         sen + " #{x}"
         binding.pry
       end
