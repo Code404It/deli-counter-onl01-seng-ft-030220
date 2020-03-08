@@ -4,7 +4,7 @@ def (deli=katz_deli)
     else
      current_line=("The line is currently:")
       array.each_with_index
-      end
+    end
     end
       puts sen
     end
