@@ -2,9 +2,7 @@ def (deli=katz_deli)
     if deli.size < 1
       puts "The line is currently empty."
     else
-     
-     
-      sen = ("The line is currently:")
+     current_line=("The line is currently:")
       nu.each do |x|
         sen + " #{x}"
         binding.pry
