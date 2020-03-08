@@ -10,7 +10,7 @@ def line(katz_deli)
       line_positions << "#{index_num}. #{name}" 
       index_num += 1
     end
-    puts "The line is currenty: #"
+    puts "The line is currenty: #{line_positions.join(" "}"
 end
 end
 
